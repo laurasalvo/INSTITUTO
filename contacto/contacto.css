@@ -1,0 +1,88 @@
+.imgEncabezado{
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.imgEncabezado .imagen img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    position: relative;
+}
+
+.imgEncabezado h3{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    color: aliceblue;
+    
+    font-size: 50px;
+    
+
+}
+.imgEncabezado p{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    color: aliceblue;
+    
+    font-size: 20px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+.seccion {
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin: 20px auto;
+     padding: 20px;
+}
+h1, h2 {
+    color: #004d99;
+}
+.info-contacto {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+}
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+input, textarea, button {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+button {
+    background-color: #004d99;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #003366;
+}
+.pie-pagina {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f1f1f1;
+    color: #666;
+}

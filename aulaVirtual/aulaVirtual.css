@@ -1,0 +1,89 @@
+.imgEncabezado{
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.imgEncabezado .imagen img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    position: relative;
+}
+
+.imgEncabezado h3{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    color: aliceblue;
+    
+    font-size: 50px;
+    
+
+}
+.imgEncabezado p{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    color: aliceblue;
+    
+    font-size: 20px;
+    
+
+}
+
+
+.contenedor-login {
+    margin: 0 auto;
+    margin-top: 50px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+.contenedor-login h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+.grupo-formulario {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.grupo-formulario label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+.grupo-formulario input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.boton-login {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.boton-login:hover {
+    background-color: #0056b3;
+}
+.pie {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #888;
+}
