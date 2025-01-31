@@ -1,0 +1,147 @@
+.imgEncabezado{
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.imgEncabezado .imagen img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    position: relative;
+}
+
+.imgEncabezado h3{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    color: aliceblue;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.322);
+    
+    font-size: 50px;
+    
+
+}
+.imgEncabezado p{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    color: aliceblue;
+    
+    font-size: 20px;
+    
+
+}
+
+.primerap{
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 220px;
+    margin-right: 220px;
+    font-size: 25px;
+    margin-bottom: 100px;
+    
+    
+}
+.primerap h5{
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+.segundoap{
+    display:flex;
+    margin-bottom: 100px;
+}
+.segundoap .div1 img{
+    width:40vw;
+    height: 400px;
+    object-fit: contain;
+
+}
+.segundoap .div2{
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.segundoap .div2 h5{
+    margin-bottom: 30px;
+    font-size: 30px;
+    
+
+}
+
+.segundoap .div2 p{
+    font-size:25px;
+    
+
+}
+.tercerap{
+    display:flex;
+    margin-bottom: 100px;
+}
+
+.tercerap .div1 {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.tercerap .div1 h5{
+    margin-bottom: 30px;
+    font-size: 30px;
+    
+
+}
+
+.tercerap .div1 p{
+    font-size:25px;
+    
+
+}
+
+.tercerap .div2 img{
+    width:40vw;
+    height: 400px;
+    object-fit: contain;
+
+}
+
+
+.cuartoap{
+    display:flex;
+}
+.cuartoap .div1 img{
+    width:40vw;
+    height: 400px;
+    object-fit: contain;
+
+}
+.cuartoap .div2{
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.cuartoap .div2 h5{
+    margin-bottom: 30px;
+    font-size: 30px;
+    
+
+}
+
+.cuartoap .div2 p{
+    font-size:25px;
+    
+
+}

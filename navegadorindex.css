@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navegador > div {
+    width: 100%;
+    display: flex;
+    background-color:#344c5c ;
+    z-index: 1;
+    border-bottom:  2px solid;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.logonav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 20%;
+}
+
+
+
+.logonav img{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+.menu_superior {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 80%;
+
+   
+    align-items: center;
+    
+    justify-content: flex-end;
+
+    /* alinenar texto en medio del menu en la linea vertical */
+    
+}
+
+/* elementos del menu .menu_superior */
+
+.menu_superior li{
+    position: relative;
+    width: 200px;
+
+}
+/* enlaces del menu superior */
+.menu_superior li a{
+
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* estilos para menudesplegable */
+
+.menu_superior li a:hover{
+    background-color: #ffffffc5;
+    color: #35636d;
+}
+
+.desplegable{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    
+    
+    list-style: none;
+
+    /* para menu oculto */
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #35636d;
+    
+    /* width: 100%; */
+}
+
+.desplegable li a{
+    display: block;
+    
+    color: white;
+    text-decoration: none;
+}
+
+.submenu:hover .desplegable{
+    display: block;
+}

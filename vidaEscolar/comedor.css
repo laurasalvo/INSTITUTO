@@ -1,0 +1,163 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw; /* Evita que la página sea más ancha que el viewport */
+    overflow-x: hidden; /* Oculta cualquier desbordamiento */
+}
+.imgEncabezado{
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.imgEncabezado .imagen img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    position: relative;
+}
+
+.imgEncabezado h3{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    color: aliceblue;
+    
+    font-size: 50px;
+    
+
+}
+.imgEncabezado p{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: aliceblue;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.322);
+    
+    
+    font-size: 20px;
+    
+
+}
+
+.primerap{
+    
+    text-align: center;
+    margin-left: 220px;
+    margin-right: 220px;
+    font-size: 25px;
+    margin-bottom: 150px;
+    
+    
+}
+
+
+.segundoap{
+    display:flex;
+    margin-bottom: 200px;
+}
+.segundoap .div1 img{
+    width:40vw;
+    height: 400px;
+    object-fit: contain;
+    margin-left: 100px;
+
+}
+.segundoap .div2{
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.segundoap .div2 h5{
+    margin-bottom: 30px;
+    font-size: 30px;
+    
+
+}
+
+.segundoap .div2 p{
+    font-size:25px;
+    
+
+}
+
+
+
+
+
+
+.dieta {
+background-color: white;
+padding: 25px;
+border-radius: 15px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+width: 100%;
+
+display: block;
+flex-direction: column;
+align-items: center; /* Alinea los elementos al centro horizontalmente */
+justify-content: center; /* Alinea el contenido al centro verticalmente */
+}
+    
+    
+
+h2 {
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+    color: #34495e;
+}
+
+
+
+
+
+table {
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    
+    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #ecf0f1;
+}
+
+table th {
+    background-color: #34495e;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table tr:nth-child(even) {
+    background-color: #f4f7fa;
+}
+
+table td {
+    font-size: 1.1em;
+    color: black;
+    border-radius: 5px;
+}
+
+/* Estilo para los segundos platos */
+.segundo {
+    font-style: italic;
+    color: #2ecc71;
+}
+
+
+

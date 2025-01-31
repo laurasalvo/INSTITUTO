@@ -1,0 +1,186 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw; /* Evita que la página sea más ancha que el viewport */
+    overflow-x: hidden; /* Oculta cualquier desbordamiento */
+}
+.header{
+    background-image: url(img/imagenPortada.png);
+    width: 100vw;
+}
+
+
+.introduccion{
+    margin-top: 150px;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}  
+
+.introduccion h3{
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+
+
+   
+}
+
+.introduccion p{
+    font-size: 25px;
+}
+    
+
+    /* section {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+.cuadroImagenes {
+    padding-top: 150px;
+    
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contenedorPrincipal {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+   
+    
+    width: 100%;
+}
+
+.contenedor {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    
+
+}
+
+.contenedor img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+
+.texto {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Limita el ancho al 100% */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px; /* Ajustado */
+    box-sizing: border-box; /* Incluye el padding */
+    transition: 0.5s ease-in-out;
+
+    /* por que aqui esta el background-color: ; */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.texto h5,
+.texto p {
+    margin: 0; /* Elimina márgenes extra */
+    word-wrap: break-word; /* Ajusta el texto */
+    word-break: break-word; /* Corta palabras largas */
+    overflow: hidden; /* Evita desbordamiento */
+    text-align: center;
+}
+
+.texto h5 {
+    font-size: 25px;
+    transform: translateY(0);
+    transition: 0.5s ease-in-out;
+}
+
+.texto p {
+    font-size: 18px;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 0.5s ease-in-out;
+}
+
+.contenedor:hover .texto h5 {
+    transform: translateY(-70%);
+}
+
+.contenedor:hover .texto p {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+
+.datos{
+    display:flex;
+    width: 100%;
+    margin-top: 200px;
+
+    
+}
+
+.datos .imagen{
+    width: 40%;
+    
+}
+.datos .imagen img{
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    
+}
+.tabla{
+    width: 60%;
+    text-align: center;
+    
+
+}
+
+.tabla table{
+    width: 100%;
+    height: 100%;
+    background-color: #344c5c;
+    color:#fff
+}
+
+
+
+.borde{
+    border: 2px solid #ffffff;;
+}
+
+.tabla h1{
+    font-size: 50px;
+}
+
+.tabla p{
+    font-size: 18px;
+}
+
+
+
+
+
+
+

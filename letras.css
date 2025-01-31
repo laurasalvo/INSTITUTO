@@ -1,0 +1,20 @@
+/* letra para navegador */
+@font-face {
+    font-family:"fredoka" ;
+    src: url(/fredoka/FredokaOne-Regular.otf);
+}
+
+/* letra para titulos */
+
+@font-face {
+    font-family: "lunchtype";
+    src: url(/lunchtype/Lunchtype22-Medium.ttf);
+}
+
+/* letra para contenido */
+
+@font-face {
+    font-family: "mewatonia";
+    src: url(/Pfennig-FontZillion/Fonts/pfennig.ttf);
+}
+

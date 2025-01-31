@@ -1,0 +1,132 @@
+/* 
+footer {
+    margin-top: 100px;
+    background-color:#344c5c;
+    text-align: center;
+    color: white ;
+    height: 300px;
+
+}
+
+.superior img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.superior{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.derecha{
+    display: flex;
+    
+}
+
+.derecha img{
+    width: 40px;
+    height: 40px;
+    padding: 0px 10px 0px 10px ;
+}
+
+.inferior{
+    width:100%;
+    
+    
+
+}
+.gmail{
+    display: flex;
+} */
+
+/* Estilo general del footer */
+footer {
+    margin-top: 150px;
+    background-color: #2d3e50;
+    color: white;
+  
+
+
+  }
+  
+  .superior {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .superior img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .centro p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .derecha a {
+    margin: 0 10px;
+  }
+  
+  .derecha img {
+    width: 30px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .derecha img:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Línea divisoria */
+  hr {
+    border: 0;
+    height: 1px;
+    background: #444;
+    margin: 20px 0;
+  }
+  
+  /* Parte inferior del footer */
+  .inferior {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
+  .gmail {
+    margin-bottom: 10px;
+  }
+  
+  .gmail input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .gmail button {
+    padding: 10px 20px;
+    background-color: #f1c40f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    /* cursor: pointer; */
+  }
+  
+  .gmail button:hover {
+    background-color: #d4ac0d;
+  }
+  
+  /* Derechos reservados */
+  .derechos {
+    font-size: 12px;
+    color: #aaa;
+  }
+
+  
+  
